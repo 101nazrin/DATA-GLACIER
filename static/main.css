@@ -1,0 +1,53 @@
+/* Defining the body arbitries */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("{{ url_for('static', filename='image/wine.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+/* Setting the login pagestyle */
+.login {
+    width: 400px;
+    height: 700px;
+    padding: 15px;
+    margin: 15px auto;
+    background: linear-gradient(to bottom, #f0deb2, #f7a73f);
+    border-radius: 5px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure the element has a position */
+    z-index: 1;
+}
+/* Setting up the login header */
+h1 {
+    text-align: center;
+    color: #01031d;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Setting up the feature box style */
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 6px;
+    margin: 8px 0;
+    border: 1px solid #c38657;
+    border-radius: 2px;
+}
+
+/* Settinmg up the button for prediction  */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a350f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #10cb5a;
+}
