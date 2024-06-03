@@ -15,7 +15,7 @@ body {
     height: 700px;
     padding: 15px;
     margin: 15px auto;
-    background: linear-gradient(to bottom, #f0deb2, #f7a73f);
+    background: linear-gradient(to bottom,#2e281a, #eec691);
     border-radius: 5px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
     position: relative; /* Ensure the element has a position */
@@ -24,7 +24,7 @@ body {
 /* Setting up the login header */
 h1 {
     text-align: center;
-    color: #01031d;
+    color: #f4e6c7;
     font-family: 'Pacifico', cursive;
 }
 
