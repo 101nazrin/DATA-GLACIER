@@ -1,0 +1,12 @@
+file_type: csv
+dataset_name: Windmill
+file_name: Windmill
+table_name: datas
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Temperature
+    - Pressure
+    - Humidity
+    - Speed
