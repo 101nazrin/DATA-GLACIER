@@ -106,6 +106,7 @@ add_subtree() {
         return 0
     fi
     
+
     # Try to add as subtree (without squash to preserve original timestamps)
     if git subtree add --prefix="$folder_name" "$repo_url" main; then
         print_success "Successfully added Data Glaciers $folder_name"
