@@ -106,12 +106,12 @@ add_subtree() {
         return 0
     fi
     
-    # Try to add as subtree
-    if git subtree add --prefix="$folder_name" "$repo_url" main --squash; then
+    # Try to add as subtree (without squash to preserve original timestamps)
+    if git subtree add --prefix="$folder_name" "$repo_url" main; then
         print_success "Successfully added Data Glaciers $folder_name"
     else
         print_warning "Failed to add $folder_name as subtree. Trying with master branch..."
-        if git subtree add --prefix="$folder_name" "$repo_url" master --squash; then
+        if git subtree add --prefix="$folder_name" "$repo_url" master; then
             print_success "Successfully added Data Glaciers $folder_name (master branch)"
         else
             print_error "Failed to add $folder_name. Please check the repository URL and branch name."

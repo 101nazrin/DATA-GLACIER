@@ -1,0 +1,25 @@
+# Data Glaciers Internship Repository Configuration
+# Add ONLY your Data Glaciers internship repository URLs here
+# Format: REPO_URL FOLDER_NAME
+# Example: https://github.com/username/data-glaciers-week1.git week1
+
+# Main Data Glaciers Repository
+https://github.com/101nazrin/DATA-GLACIER.git main
+
+# Git Submission Repository
+https://github.com/101nazrin/Git_submission.git git-submission
+
+# Week 5 - Heroku Deployment
+https://github.com/101nazrin/WEEK-5--Heroku.git week5-heroku
+
+# Week 6 Repository
+https://github.com/101nazrin/WEEK6.git week6
+
+# G2M Analysis Project
+https://github.com/101nazrin/G2M-Analysis.git g2m-analysis
+
+# Flask Deployment Project
+https://github.com/101nazrin/Flask-Deployement.git flask-deployment
+
+# Add more Data Glaciers weeks as needed...
+# IMPORTANT: Only include Data Glaciers internship repositories!
